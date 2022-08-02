@@ -1,0 +1,166 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:"ONE PIECE" ;
+    src: url('/dz_sovmestka/fonts/one\ piece\ font.ttf');
+    font-weight: 400;
+}
+body{
+  
+    /* width: 1366px; */
+    /* height: 936px; */
+    background-color: #ffe1a7;
+}
+.conteiner{
+    width: 1366px;
+    margin: 0 auto;
+}
+.d_players{
+    position: absolute;
+    margin-left: 53px;
+}
+
+.header{
+    margin-top: -20px;
+    height: 75px;
+    background: #cfb686;
+}
+
+.b_header{
+    padding-top: 25px;
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-left: 750px;
+}
+a{
+    color: black;
+    padding-left: 50px;
+}
+a:hover{
+    font-weight: 600;
+}
+
+.logoo{
+    position: absolute;
+    font-size: 80px;
+    margin-top: -5px;
+    margin-left: 15px;
+    font-weight: 400;
+    font-family: 'ONE PIECE';
+
+}
+
+.logo_op{
+    margin-top: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: sans-serif;
+    
+
+}
+.jj{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.vv{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.back_text{
+    font-family: 'ONE PIECE';
+    font-size: 350px;
+    color: #c9b284;
+    position: absolute;
+}
+
+h1{
+    margin-left: 20px;
+    margin-top: 340px;
+    font-size: 46px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.first_str p{
+    width: 1000px;
+    font-size: 24px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    text-indent: 15px;
+}
+
+.sanjar{
+    margin-top: 40px;
+    width: 1366px;
+    height: 900px;
+    background-color: #847d6f;
+    font-size: 350px;
+    color: #c9b284;
+}
+.sanjar p{
+    font-size: 48px;
+    padding-top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.s_b{
+    font-size: 100px;
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: -80px;
+}
+
+li {
+    position: relative;
+    list-style-type: none;
+    padding-left: 1180px;
+    padding-top: 60px;
+
+}
+
+.d_players{
+    position: absolute;
+    margin-top: -650px;
+}
+.div_player1{
+    position: absolute;
+    z-index: 3;
+}
+.div_player2{
+    position: absolute;
+    z-index: 2;
+}
+.div_player3{
+    position: absolute;
+    z-index: 1;
+}
+
+.s_b button{
+    margin-top: -200px;
+    width: 50px;
+    height: 80px;
+    border-radius: 10px;
+    border: 1px solid #b69c9c;
+    background-color: #b69c9c;
+    font-size: 36px;
+}
+.s_b button:hover{
+    border: 1px solid #6a5c5c;
+    background-color: #6a5c5c;
+}
+.v_b{
+    pointer-events: none;
+}
+
